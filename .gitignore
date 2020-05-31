@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/MVCLoginApp
+/MVCLoginApp/bin/Debug/netcoreapp3.1
+/MVCLoginApp/obj
+/WebAPITest/bin/Debug/netcoreapp3.1
+/WebAPITest/obj
+/WebAPITest2/bin/Debug/netcoreapp3.1
+/WebAPITest2/obj

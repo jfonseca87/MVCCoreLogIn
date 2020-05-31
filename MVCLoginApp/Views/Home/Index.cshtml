@@ -1,0 +1,33 @@
+﻿@model MVCLoginApp.Models.User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div style="text-align:center;border:1px solid black;">
+        <div>
+            <h4>Login App</h4>
+        </div>
+        <form action="/Home/Login" method="post">
+            <div>
+                <div>
+                    <input type="text" name="UserName" placeholder="UserName" />
+                </div>
+                <div>
+                    <input type="text" name="Password" placeholder="Password" />
+                </div>
+                <div>
+                    <input type="submit" name="name" value="Ingresar" />
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
